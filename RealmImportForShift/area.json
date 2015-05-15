@@ -1,0 +1,338 @@
+[
+ {
+    "id":5,
+     "AreaCode": "01",
+     "AreaName": "関東",
+     "PrefCode": "13",
+     "PrefName": "東京都"
+ },
+ {
+    "id":6,
+     "AreaCode": "01",
+     "AreaName": "関東",
+     "PrefCode": "14",
+     "PrefName": "神奈川県"
+ },
+ {
+   "id":3,
+    "AreaCode": "01",
+    "AreaName": "関東",
+    "PrefCode": "11",
+    "PrefName": "埼玉県"
+ },
+ {
+   "id":4,
+    "AreaCode": "01",
+    "AreaName": "関東",
+    "PrefCode": "12",
+    "PrefName": "千葉県"
+ },
+ {
+ 	"id":0,
+    "AreaCode": "01",
+    "AreaName": "関東",
+    "PrefCode": "08",
+    "PrefName": "茨城県"
+ },
+ {
+ 	"id":1,
+    "AreaCode": "01",
+    "AreaName": "関東",
+    "PrefCode": "09",
+    "PrefName": "栃木県"
+ },
+ {
+ 	"id":2,
+    "AreaCode": "01",
+    "AreaName": "関東",
+    "PrefCode": "10",
+    "PrefName": "群馬県"
+ },
+ {
+ 	"id":10,
+    "AreaCode": "02",
+    "AreaName": "東海",
+    "PrefCode": "23",
+    "PrefName": "愛知県"
+ },
+ {
+ 	"id":8,
+    "AreaCode": "02",
+    "AreaName": "東海",
+    "PrefCode": "21",
+    "PrefName": "岐阜県"
+ },
+ {
+ 	"id":9,
+    "AreaCode": "02",
+    "AreaName": "東海",
+    "PrefCode": "22",
+    "PrefName": "静岡県"
+ },
+ {
+ 	"id":11,
+    "AreaCode": "02",
+    "AreaName": "東海",
+    "PrefCode": "24",
+    "PrefName": "三重県"
+ },
+ {
+ 	"id":14,
+    "AreaCode": "03",
+    "AreaName": "関西",
+    "PrefCode": "27",
+    "PrefName": "大阪府"
+ },
+ {
+   "id":15,
+    "AreaCode": "03",
+    "AreaName": "関西",
+    "PrefCode": "28",
+    "PrefName": "兵庫県"
+ },
+ {
+   "id":13,
+    "AreaCode": "03",
+    "AreaName": "関西",
+    "PrefCode": "26",
+    "PrefName": "京都府"
+ },
+ {
+ 	"id":12,
+    "AreaCode": "03",
+    "AreaName": "関西",
+    "PrefCode": "25",
+    "PrefName": "滋賀県"
+ },
+ {
+ 	"id":16,
+    "AreaCode": "03",
+    "AreaName": "関西",
+    "PrefCode": "29",
+    "PrefName": "奈良県"
+ },
+ {
+ 	"id":17,
+    "AreaCode": "03",
+    "AreaName": "関西",
+    "PrefCode": "30",
+    "PrefName": "和歌山県"
+ },
+ {
+    "id":18,
+    "AreaCode": "04",
+    "AreaName": "北海道",
+    "PrefCode": "01",
+    "PrefName": "北海道"
+ },
+ {
+    "id":19,
+    "AreaCode": "05",
+    "AreaName": "東北",
+    "PrefCode": "02",
+    "PrefName": "青森県"
+ },
+ {
+    "id":20,
+    "AreaCode": "05",
+    "AreaName": "東北",
+    "PrefCode": "03",
+    "PrefName": "岩手県"
+ },
+ {
+    "id":21,
+    "AreaCode": "05",
+    "AreaName": "東北",
+    "PrefCode": "04",
+    "PrefName": "宮城県"
+ },
+ {
+    "id":22,
+    "AreaCode": "05",
+    "AreaName": "東北",
+    "PrefCode": "05",
+    "PrefName": "秋田県"
+ },
+ {
+    "id":23,
+    "AreaCode": "05",
+    "AreaName": "東北",
+    "PrefCode": "06",
+    "PrefName": "山形県"
+ },
+ {
+    "id":23,
+    "AreaCode": "05",
+    "AreaName": "東北",
+    "PrefCode": "07",
+    "PrefName": "福島県"
+ },
+ {
+    "id":24,
+    "AreaCode": "06",
+    "AreaName": "甲信越・北陸",
+    "PrefCode": "19",
+    "PrefName": "山梨県"
+ },
+ {
+    "id":25,
+    "AreaCode": "06",
+    "AreaName": "甲信越・北陸",
+    "PrefCode": "15",
+    "PrefName": "新潟県"
+ },
+ {
+    "id":26,
+    "AreaCode": "06",
+    "AreaName": "甲信越・北陸",
+    "PrefCode": "20",
+    "PrefName": "長野県"
+ },
+ {
+    "id":27,
+    "AreaCode": "06",
+    "AreaName": "甲信越・北陸",
+    "PrefCode": "16",
+    "PrefName": "富山県"
+ },
+ {
+    "id":28,
+    "AreaCode": "06",
+    "AreaName": "甲信越・北陸",
+    "PrefCode": "17",
+    "PrefName": "石川県"
+ },
+ {
+    "id":29,
+    "AreaCode": "06",
+    "AreaName": "甲信越・北陸",
+    "PrefCode": "18",
+    "PrefName": "福井県"
+ },
+ {
+    "id":30,
+    "AreaCode": "08",
+    "AreaName": "中国・四国",
+    "PrefCode": "31",
+    "PrefName": "鳥取県"
+ },
+ {
+    "id":31,
+    "AreaCode": "08",
+    "AreaName": "中国・四国",
+    "PrefCode": "32",
+    "PrefName": "島根県"
+ },
+ {
+    "id":32,
+    "AreaCode": "08",
+    "AreaName": "中国・四国",
+    "PrefCode": "33",
+    "PrefName": "岡山県"
+ },
+ {
+    "id":33,
+    "AreaCode": "08",
+    "AreaName": "中国・四国",
+    "PrefCode": "34",
+    "PrefName": "広島県"
+ },
+ {
+    "id":34,
+    "AreaCode": "08",
+    "AreaName": "中国・四国",
+    "PrefCode": "35",
+    "PrefName": "山口県"
+ },
+ {
+    "id":35,
+    "AreaCode": "08",
+    "AreaName": "中国・四国",
+    "PrefCode": "36",
+    "PrefName": "徳島県"
+ },
+ {
+    "id":36,
+    "AreaCode": "08",
+    "AreaName": "中国・四国",
+    "PrefCode": "37",
+    "PrefName": "香川県"
+ },
+ {
+    "id":37,
+    "AreaCode": "08",
+    "AreaName": "中国・四国",
+    "PrefCode": "38",
+    "PrefName": "愛媛県"
+ },
+ {
+    "id":38,
+    "AreaCode": "08",
+    "AreaName": "中国・四国",
+    "PrefCode": "39",
+    "PrefName": "高知県"
+ },
+ {
+    "id":39,
+    "AreaCode": "10",
+    "AreaName": "九州・沖縄",
+    "PrefCode": "40",
+    "PrefName": "福岡県"
+ },
+ {
+    "id":40,
+    "AreaCode": "10",
+    "AreaName": "九州・沖縄",
+    "PrefCode": "41",
+    "PrefName": "佐賀県"
+ },
+ {
+    "id":41,
+    "AreaCode": "10",
+    "AreaName": "九州・沖縄",
+    "PrefCode": "42",
+    "PrefName": "長崎県"
+ },
+ {
+    "id":42,
+    "AreaCode": "10",
+    "AreaName": "九州・沖縄",
+    "PrefCode": "43",
+    "PrefName": "熊本県"
+ },
+ {
+    "id":43,
+    "AreaCode": "10",
+    "AreaName": "九州・沖縄",
+    "PrefCode": "44",
+    "PrefName": "大分県"
+ },
+ {
+    "id":44,
+    "AreaCode": "10",
+    "AreaName": "九州・沖縄",
+    "PrefCode": "45",
+    "PrefName": "宮崎県"
+ },
+ {
+    "id":45,
+    "AreaCode": "10",
+    "AreaName": "九州・沖縄",
+    "PrefCode": "46",
+    "PrefName": "鹿児島県"
+ },
+ {
+    "id":46,
+    "AreaCode": "10",
+    "AreaName": "九州・沖縄",
+    "PrefCode": "47",
+    "PrefName": "沖縄県"
+ },
+ {
+ 	"id":99,
+    "AreaCode": "",
+    "AreaName": "",
+    "PrefCode": "",
+    "PrefName": "選択しない"
+ }
+]

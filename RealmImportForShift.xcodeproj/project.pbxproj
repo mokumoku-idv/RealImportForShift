@@ -8,23 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		56027A571B04440800A24B18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56027A561B04440800A24B18 /* main.m */; };
+		56027A5E1B04442E00A24B18 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56027A5D1B04442E00A24B18 /* Realm.framework */; };
+		56027A621B04463800A24B18 /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = 56027A611B04463800A24B18 /* Area.m */; };
+		56027A631B044DCD00A24B18 /* area.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 56027A5F1B04461600A24B18 /* area.json */; };
+		56027A641B044DCD00A24B18 /* Realm.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 56027A5D1B04442E00A24B18 /* Realm.framework */; };
+		56027A661B044DEB00A24B18 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 56027A651B044DEB00A24B18 /* libc++.dylib */; };
+		56027A671B044F5300A24B18 /* libc++.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 56027A651B044DEB00A24B18 /* libc++.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		56027A511B04440800A24B18 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				56027A671B044F5300A24B18 /* libc++.dylib in CopyFiles */,
+				56027A631B044DCD00A24B18 /* area.json in CopyFiles */,
+				56027A641B044DCD00A24B18 /* Realm.framework in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		56027A531B04440800A24B18 /* RealmImportForShift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RealmImportForShift; sourceTree = BUILT_PRODUCTS_DIR; };
 		56027A561B04440800A24B18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56027A5D1B04442E00A24B18 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		56027A5F1B04461600A24B18 /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
+		56027A601B04463800A24B18 /* Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		56027A611B04463800A24B18 /* Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area.m; sourceTree = "<group>"; };
+		56027A651B044DEB00A24B18 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56027A661B044DEB00A24B18 /* libc++.dylib in Frameworks */,
+				56027A5E1B04442E00A24B18 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +57,7 @@
 		56027A4A1B04440800A24B18 = {
 			isa = PBXGroup;
 			children = (
+				56027A651B044DEB00A24B18 /* libc++.dylib */,
 				56027A551B04440800A24B18 /* RealmImportForShift */,
 				56027A541B04440800A24B18 /* Products */,
 			);
@@ -57,6 +74,10 @@
 		56027A551B04440800A24B18 /* RealmImportForShift */ = {
 			isa = PBXGroup;
 			children = (
+				56027A601B04463800A24B18 /* Area.h */,
+				56027A611B04463800A24B18 /* Area.m */,
+				56027A5F1B04461600A24B18 /* area.json */,
+				56027A5D1B04442E00A24B18 /* Realm.framework */,
 				56027A561B04440800A24B18 /* main.m */,
 			);
 			path = RealmImportForShift;
@@ -118,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56027A621B04463800A24B18 /* Area.m in Sources */,
 				56027A571B04440800A24B18 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +227,10 @@
 		56027A5B1B04440800A24B18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RealmImportForShift",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +238,10 @@
 		56027A5C1B04440800A24B18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RealmImportForShift",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -235,6 +265,7 @@
 				56027A5C1B04440800A24B18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
